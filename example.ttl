@@ -6,9 +6,9 @@
 				ex:signalGroup <http://example.org/signalgroup/6> .
 
 <http://example.org/lanes/1> a ex:Lane ;
-			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING ( 4.3974731 51.2120579, 4.3991321 51.2118214 )" ;
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (4.3974731 51.2120579, 4.3991321 51.2118214)" ;
 			ex:width 100 .
 
 <http://example.org/lanes/11>  a ex:Lane ;
-			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING ( 4.3973510 51.2122440, 4.3975804 51.2126980 )" ;
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (4.3973510 51.2122440, 4.3975804 51.2126980)" ;
 			ex:width 100 .
