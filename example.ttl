@@ -7,7 +7,7 @@
 				ex:signalGroup <http://example.org/signalgroup/6> .
 
 <http://example.org/lanes/1> a ex:Lane ;
-			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2120579 4.3974731, 51.2118214, 4.3991321)" ;
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2120579 4.3974731, 51.2118214 4.3991321)" ;
 			ex:width "100"^^xsd:string .
 
 <http://example.org/lanes/11>  a ex:Lane ;
