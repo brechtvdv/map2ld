@@ -4,7 +4,7 @@
 <http://example.org/connections/1/11> a ex:Connection ;
 				ex:departureLane <http://example.org/lanes/1>;
 				ex:arrivalLane <http://example.org/lanes/11> ;
-				ex:signalGroup <http://example.org/signalgroup/1> .
+				ex:signalGroup <http://example.org/signalgroup/7> .
 
 <http://example.org/lanes/1> a ex:Lane ;
 			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2120579 4.3974731, 51.2118214 4.3991321)" ;
