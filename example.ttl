@@ -4,12 +4,12 @@
 <http://example.org/connections/1/11> a ex:Connection ;
 				ex:departureLane <http://example.org/lanes/1>;
 				ex:arrivalLane <http://example.org/lanes/11> ;
-				ex:signalGroup <http://example.org/signalgroup/6> .
+				ex:signalGroup <http://example.org/signalgroup/4> .
 
 <http://example.org/lanes/1> a ex:Lane ;
-			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2120579 4.3974731, 51.2118214 4.3991321)"^^xsd:string ;
-			ex:width "100" .
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2120579 4.3974731, 51.2118214 4.3991321)" ;
+			ex:width "100"^^xsd:string .
 
 <http://example.org/lanes/11>  a ex:Lane ;
-			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2122440 4.3973510, 51.2126980 4.3975804)"^^xsd:string ;
-			ex:width "100" .
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2122440 4.3973510, 51.2126980 4.3975804)" ;
+			ex:width "100"^^xsd:string .
