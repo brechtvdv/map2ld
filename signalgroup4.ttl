@@ -1,0 +1,15 @@
+@prefix ex: <http://example.org#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/lanes/6> a ex:Lane ;
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2118379 4.3970829, 51.2111054 4.3961904)"^^xsd:string ;
+			ex:width "100" .
+
+<http://example.org/connections/11> a ex:Connection ;
+				ex:departureLane <http://example.org/lanes/6>;
+				ex:arrivalLane <http://example.org/lanes/11> ;
+				ex:signalGroup <http://example.org/signalgroup/4> .
+
+<http://example.org/lanes/11>  a ex:Lane ;
+			<http://www.opengis.net/#geosparql/wktLiteral> "LINESTRING (51.2122440 4.3973510, 51.2126980 4.3975804)"^^xsd:string ;
+			ex:width "100" .
