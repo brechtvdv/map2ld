@@ -1,7 +1,12 @@
 const http = require('http');
 const fs = require('fs');
 
-const server = http.createServer((req, res) => {
+const options = {
+  key: fs.readFileSync('./keys/localhost-privkey.pem'),
+  cert: fs.readFileSync('./keys/localhost-cert.pem')
+};
+
+const server = http.createServer(options, (req, res) => {
   try {
       res.setHeader('Access-Control-Allow-Origin', '*');
       res.setHeader('Content-Type', 'text/turtle');
