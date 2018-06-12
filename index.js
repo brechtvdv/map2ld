@@ -1,4 +1,4 @@
-const http = require('http');
+const https = require('https');
 const fs = require('fs');
 
 const options = {
@@ -6,7 +6,7 @@ const options = {
   cert: fs.readFileSync('./keys/localhost-cert.pem')
 };
 
-const server = http.createServer(options, (req, res) => {
+const server = https.createServer(options, (req, res) => {
   try {
       res.setHeader('Access-Control-Allow-Origin', '*');
       res.setHeader('Content-Type', 'text/turtle');
